@@ -1,0 +1,30 @@
+# datasets (do not commit)
+dataset/
+datasets/
+*.mat
+
+# generated artifacts
+runs/
+outputs/
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# python cache
+__pycache__/
+*.pyc
+
+# virtual environments
+myEnv/
+.venv/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+#testing file
+view_npy.ipynb
+classification_report.txt
+compute_FLOPs.py
