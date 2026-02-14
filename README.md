@@ -47,7 +47,7 @@ The dataset is not redistributed in this repository.
 
 Generate class-wise TECEM maps:
 
-    python scripts/precompute_tecem_sa.py --data_dir dataset --out_dir outputs/SA_TECEM_cls --seed 0
+    python -m scripts.precompute_tecem --data_dir dataset --out_dir outputs/SA_TECEM_cls --seed 0
 
 This step produces the target-enhanced class maps used by the 2D branch.
 
@@ -61,7 +61,7 @@ Output directory:
 
 Train the model:
 
-    python scripts/train.py --data_dir dataset --tecem_dir outputs/SA_TECEM_cls --seed 0
+    python scripts/main.py --data_dir dataset --tecem_dir outputs/SA_TECEM_cls --seed 0
 
 Default configuration:
 - Test ratio: 0.98
