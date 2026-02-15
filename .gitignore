@@ -1,7 +1,9 @@
 # datasets (do not commit)
-dataset/
-datasets/
-*.mat
+dataset/*
+!dataset/Salinas_corrected.mat
+!dataset/Salinas_gt
+# datasets/
+# *.mat
 
 # generated artifacts
 runs/

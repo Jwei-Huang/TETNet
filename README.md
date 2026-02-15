@@ -39,7 +39,7 @@ Required files:
     ├── Salinas_corrected.mat
     └── Salinas_gt.mat
 
-The dataset is not redistributed in this repository.
+<!-- The dataset is not redistributed in this repository. -->
 
 ---
 
