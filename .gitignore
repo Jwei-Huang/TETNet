@@ -1,7 +1,7 @@
 # datasets (do not commit)
 dataset/*
 !dataset/Salinas_corrected.mat
-!dataset/Salinas_gt
+!dataset/Salinas_gt.mat
 # datasets/
 # *.mat
 
